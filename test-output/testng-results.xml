@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16346" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16346" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:30Z">
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="5169" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="verifyLoginPageTitleTest" duration-ms="142" started-at="2021-03-14T01:21:19Z" finished-at="2021-03-14T01:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="788" started-at="2021-03-14T01:21:20Z" finished-at="2021-03-14T01:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3403" started-at="2021-03-14T01:21:20Z" finished-at="2021-03-14T01:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgotLinkDisplaytest()[pri:1, instance:com.qa.tests.LoginPageTest@cad498c]" name="verifyForgotLinkDisplaytest" duration-ms="156" started-at="2021-03-14T01:21:24Z" finished-at="2021-03-14T01:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotLinkDisplaytest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-03-14T01:21:24Z" finished-at="2021-03-14T01:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3431" started-at="2021-03-14T01:21:25Z" finished-at="2021-03-14T01:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.tests.LoginPageTest@cad498c]" name="loginTest" duration-ms="1479" started-at="2021-03-14T01:21:28Z" finished-at="2021-03-14T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-03-14T01:21:30Z" finished-at="2021-03-14T01:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
