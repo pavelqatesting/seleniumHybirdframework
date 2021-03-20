@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16346" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:30Z">
+  <suite name="Default suite" duration-ms="29510" started-at="2021-03-20T23:52:31Z" finished-at="2021-03-20T23:53:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16346" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:30Z">
-      <class name="com.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="5169" started-at="2021-03-14T01:21:14Z" finished-at="2021-03-14T01:21:19Z">
+    <test name="Default test" duration-ms="29510" started-at="2021-03-20T23:52:31Z" finished-at="2021-03-20T23:53:01Z">
+      <class name="com.qa.tests.AccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="setUp" is-config="true" duration-ms="4370" started-at="2021-03-20T23:52:31Z" finished-at="2021-03-20T23:52:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="verifyLoginPageTitleTest" duration-ms="142" started-at="2021-03-14T01:21:19Z" finished-at="2021-03-14T01:21:20Z">
+        <test-method status="PASS" signature="searchProductTest()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="searchProductTest" duration-ms="7498" started-at="2021-03-20T23:52:36Z" finished-at="2021-03-20T23:52:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="788" started-at="2021-03-14T01:21:20Z" finished-at="2021-03-14T01:21:20Z">
+        </test-method> <!-- searchProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="1267" started-at="2021-03-20T23:52:43Z" finished-at="2021-03-20T23:52:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3403" started-at="2021-03-14T01:21:20Z" finished-at="2021-03-14T01:21:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3113" started-at="2021-03-20T23:52:44Z" finished-at="2021-03-20T23:52:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyForgotLinkDisplaytest()[pri:1, instance:com.qa.tests.LoginPageTest@cad498c]" name="verifyForgotLinkDisplaytest" duration-ms="156" started-at="2021-03-14T01:21:24Z" finished-at="2021-03-14T01:21:24Z">
+        <test-method status="PASS" signature="verifyAccountPageHeaderTextTest()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="verifyAccountPageHeaderTextTest" duration-ms="1506" started-at="2021-03-20T23:52:48Z" finished-at="2021-03-20T23:52:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyForgotLinkDisplaytest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-03-14T01:21:24Z" finished-at="2021-03-14T01:21:25Z">
+        </test-method> <!-- verifyAccountPageHeaderTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="740" started-at="2021-03-20T23:52:49Z" finished-at="2021-03-20T23:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3431" started-at="2021-03-14T01:21:25Z" finished-at="2021-03-14T01:21:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3152" started-at="2021-03-20T23:52:50Z" finished-at="2021-03-20T23:52:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.tests.LoginPageTest@cad498c]" name="loginTest" duration-ms="1479" started-at="2021-03-14T01:21:28Z" finished-at="2021-03-14T01:21:30Z">
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.qa.tests.AccountPageTest@cad498c]" name="verifyPageTitleTest" duration-ms="1447" started-at="2021-03-20T23:52:53Z" finished-at="2021-03-20T23:52:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="772" started-at="2021-03-14T01:21:30Z" finished-at="2021-03-14T01:21:30Z">
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="710" started-at="2021-03-20T23:52:54Z" finished-at="2021-03-20T23:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.LoginPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="setUp" is-config="true" duration-ms="3059" started-at="2021-03-20T23:52:55Z" finished-at="2021-03-20T23:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountSectionListTest()[pri:2, instance:com.qa.tests.AccountPageTest@cad498c]" name="verifyAccountSectionListTest" duration-ms="1543" started-at="2021-03-20T23:52:58Z" finished-at="2021-03-20T23:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountSectionListTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AccountPageTest@cad498c]" name="tearDown" is-config="true" duration-ms="773" started-at="2021-03-20T23:53:00Z" finished-at="2021-03-20T23:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.AccountPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
+import com.qa.pages.AccountPage;
 import com.qa.pages.LoginPage;
 import com.qa.util.GenericFunction;
 
@@ -16,6 +17,7 @@ public class BaseTest {
 	public BasePage basePage = new BasePage();
 	public WebDriver driver;
 	public LoginPage loginPage;
+	public AccountPage accountPage;
 
 	
 	/**
@@ -27,6 +29,7 @@ public class BaseTest {
 		String browser = prop.getProperty("browser");
 		driver = basePage.initilizebrowser(browser);
 		loginPage = new LoginPage(driver);
+		accountPage = new AccountPage(driver);
 		String url = prop.getProperty("url");
 		driver.get(url);
 	}
@@ -34,6 +37,15 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	public void sleep(long millis) {
+		try {
+			Thread.sleep(millis);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
